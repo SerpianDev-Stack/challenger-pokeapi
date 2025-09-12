@@ -16,7 +16,7 @@ const AppRoutes = () => {
                 <Route path="/pokemon/:nome" element={<PokeDetails />} />
             </Routes>
         </BrowserRouter>
-    )
-}
+    );
+};
 
-export { AppRoutes }
+export { AppRoutes };
