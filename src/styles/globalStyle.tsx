@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
 
 @font-face {
     font-family: "Bebas Neue";
-    src: url("/fonts/BebasNeue-Regular.ttf") format("truetype");
+    src: url('../../public/fonts/BebasNeue-Regular.ttf') format("ttf");
     font-weight: normal;
     font-style: normal;
   }
@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 *{
 margin:0;
 padding:0;
-box-sizing:border-box;
+box-sizing:border-box;                    
 }
 
 
