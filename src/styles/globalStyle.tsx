@@ -1,10 +1,10 @@
 import { createGlobalStyle } from "styled-components";
-
+import BebasNeue from '../../public/fonts/BebasNeue-Regular.ttf';
 export const GlobalStyle = createGlobalStyle`
 
 @font-face {
     font-family: "Bebas Neue";
-    src: url('../../public/fonts/BebasNeue-Regular.ttf') format("ttf");
+    src: url(${BebasNeue}) format("ttf");
     font-weight: normal;
     font-style: normal;
   }
