@@ -9,7 +9,7 @@ const AppRoutes = () => {
     const togglePokemons = () => setShowExtra(prev => !prev);
 
     return (
-        <HashRouter>
+        <HashRouter  basename="/challenger-pokeapi/">
             <NavBar togglePokemons={togglePokemons} showExtra={showExtra} />
             <Routes>
                 <Route path="/" element={<PokeList showExtra={showExtra} />} />
