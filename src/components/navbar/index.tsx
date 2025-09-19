@@ -35,9 +35,9 @@ const NavBar = ({ togglePokemons, showExtra }: { togglePokemons: () => void, sho
             </div>
             <div>
                 <Link to="/">
-                    <Button>Return to Home</Button>
+                    <Button>Home</Button>
                 </Link>
-                <Button onClick={toggleTheme}>Set to Theme</Button>
+                <Button onClick={toggleTheme}>Mudar Tema</Button>
                 <Button onClick={togglePokemons}>
                     {showExtra ? "Mostrar menos" : "Mostrar mais"}
                 </Button>
